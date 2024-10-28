@@ -71,7 +71,7 @@ const promptInputs = (): Promise<{
     {
       name: 'wsUrl',
       type: 'input',
-      message: 'Your Websocket chrome debug URL (ws://127.0.0.1:9222devtools/browser/UUID) from 127.0.0.1:9222/json/version:',
+      message: 'Your Websocket chrome debug URL (ws://127.0.0.1:9222/devtools/browser/UUID) from 127.0.0.1:9222/json/version:',
       default: WS_URL
     },
     {

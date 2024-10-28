@@ -22,26 +22,14 @@ CLI tool to export your [Whimsical](https://whimsical.com) boards recursively as
 
 ## Usage
 
-You can just run the latest version from the terminal, without installing it locally:
-
-```shell
-npx whimsical-exporter
-```
-
-Or clone the repo and install the dependencies with `npm install`, then run it with `npm start`.
+Clone the repo and install the dependencies with `npm install`, then run it with `npm start`.
 
 The interactive tool will ask you for your email, password, the URL you want to start exporting from, and the image formats you prefer and will save the files with the same folder structure in a `downloads` folder on your working directory.
 
 If you plan to run this tool several times, you can also pass these options as environment variables:
 
 ```
-WS_URL='ws://xxx' FOLDER_URL='https://whimsical.com/your-folder-name' FILE_TYPES='svg,png,pdf' npx whimsical-exporter
-```
-
-If you would like to debug the tool, you can make the browser automation visible and open the dev tools panel with the `DEBUG` environment variable. Please note that you may get print dialogs that will steal your focus when exporting to PDF on this mode:
-
-```
-DEBUG=true npx whimsical-exporter
+WS_URL='ws://xxx' FOLDER_URL='https://whimsical.com/your-folder-name' FILE_TYPES='svg,png,pdf' npm start
 ```
 
 ## License
