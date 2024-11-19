@@ -2,6 +2,10 @@
 
 CLI tool to export your [Whimsical](https://whimsical.com) boards recursively as SVG, PNG, or PDF from a starting folder URL.
 
+## Note:
+
+This is a fork of https://github.com/FdezRomero/whimsical-exporter
+
 ## Features
 
 - Exports folders and boards recursively, keeping the same folder structure.
