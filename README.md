@@ -11,7 +11,7 @@ CLI tool to export your [Whimsical](https://whimsical.com) boards recursively as
   - SVG (shapes can be zoomed in and edited)
 - If the process fails, you can run the same command again and it will skip existing files.
 - Automatically skips empty boards.
-- All code is run locally in your machine using a headless Chromium browser.
+- All code is run locally in your machine taking control of your existing browser with debugging port.
 - Your login credentials are never stored or shared.
 
 ## Requirements
