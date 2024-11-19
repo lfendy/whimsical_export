@@ -17,8 +17,7 @@ CLI tool to export your [Whimsical](https://whimsical.com) boards recursively as
 ## Requirements
 
 - Node.js v16+
-- Whimsical account with password ([how to create one if you sign in with Google](https://help.whimsical.com/article/582-how-to-change-or-reset-your-password))
-- Can run a headless browser (uses Chromium via Puppeteer)
+- Chrome with debugging port enabled
 
 ## Usage
 
